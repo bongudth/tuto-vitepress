@@ -1,0 +1,8 @@
+{
+  "name": "vitepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bongudth/tuto-vitepress.git",
+  "author": "Huynh Thi Khanh Linh <huynhthikhanhlinh2105@gmail.com>",
+  "license": "MIT"
+}
