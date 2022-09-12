@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/bongudth/tuto-vitepress.git",
   "author": "Huynh Thi Khanh Linh <huynhthikhanhlinh2105@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.39"
+  }
 }
