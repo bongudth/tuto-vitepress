@@ -61,3 +61,19 @@ Danger zone, do not proceed
 console.log('Hello, VitePress!')
 ```
 :::
+
+## Syntax Highlighting in Code Blocks
+```js
+export default {
+  name: 'MyComponent',
+  // ...
+}
+```
+
+```html
+<ul>
+  <li v-for="todo in todos" :key="todo.id">
+    {{ todo.text }}
+  </li>
+</ul>
+```
