@@ -77,3 +77,28 @@ export default {
   </li>
 </ul>
 ```
+## Line Highlighting in Code Blocks
+
+```js{4}
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+```
+
+```js{1,4,6-8}
+export default { // Highlighted
+  data () {
+    return {
+      msg: `Highlighted!
+      This line isn't highlighted,
+      but this and the next 2 are.`,
+      motd: 'VitePress is awesome',
+      lorem: 'ipsum'
+    }
+  }
+}
+```
