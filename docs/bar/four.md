@@ -1,1 +1,5 @@
 # Four
+
+export default function () {
+  // ..
+}

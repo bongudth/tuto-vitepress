@@ -1,1 +1,5 @@
 # Three
+
+export default function () {
+  // ..
+}

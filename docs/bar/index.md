@@ -102,3 +102,9 @@ export default { // Highlighted
   }
 }
 ```
+
+## Import Code Snippets
+
+<<< @/bar/four.md
+
+<<< @/bar/three.md{3}
