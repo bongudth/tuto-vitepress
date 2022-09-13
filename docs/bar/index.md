@@ -108,3 +108,7 @@ export default { // Highlighted
 <<< @/bar/four.md
 
 <<< @/bar/three.md{3}
+
+## 
+
+<!--@include: ../foo/one.md-->
