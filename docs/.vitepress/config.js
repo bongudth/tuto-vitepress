@@ -32,6 +32,52 @@ export default {
                     }
                 ]
             }
-        ]
+        ],
+        sidebar: {
+            '/foo/': [
+                {
+                    text: 'Home',
+                    items: [
+                        { text: 'Introduction', link: '/' },
+                    ]
+                },
+                {
+                    text: 'Foo',
+                    items: [
+                        { text: 'Index', link: '/foo/' },
+                        { text: 'One', link: '/foo/one' },
+                        { text: 'Two', link: '/foo/two' }
+                    ]
+                }
+            ],
+            '/bar/': [
+                {
+                    text: 'Bar',
+                    items: [
+                        { text: 'Index', link: '/bar/' },
+                        { text: 'Three', link: '/bar/three' },
+                        { text: 'Four', link: '/bar/four' }
+                    ]
+                }
+            ],
+            '/': [
+                {
+                    text: 'Foo',
+                    items: [
+                        { text: 'Index', link: '/foo/' },
+                        { text: 'One', link: '/foo/one' },
+                        { text: 'Two', link: '/foo/two' }
+                    ]
+                },
+                {
+                    text: 'Bar',
+                    items: [
+                        { text: 'Index', link: '/bar/' },
+                        { text: 'Three', link: '/bar/three' },
+                        { text: 'Four', link: '/bar/four' }
+                    ]
+                }
+            ]
+        }
     },
 }
