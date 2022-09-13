@@ -63,6 +63,8 @@ export default {
             '/': [
                 {
                     text: 'Foo',
+                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Index', link: '/foo/' },
                         { text: 'One', link: '/foo/one' },
