@@ -109,6 +109,6 @@ export default { // Highlighted
 
 <<< @/bar/three.md{3}
 
-## 
+## Markdown File Inclusion
 
 <!--@include: ../foo/one.md-->
